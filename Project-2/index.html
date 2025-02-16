@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Project-1</title>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- global container -->
+    <div
+      class="bg-slate-700 min-h-screen flex justify-center items-center px-4"
+    >
+      <!-- cards container -->
+      <div
+        class="flex flex-col md:flex-row justify-center gap-4 overflow-hidden"
+      >
+        <!-- card 1 -->
+        <div class="text-slate-300 rounded-lg bg-slate-600 p-3">
+          <!-- card top -->
+          <div
+            class="text-center flex flex-col items-center gap-5 p-8 rounded-t-md bg-slate-800"
+          >
+            <p class="text-xl">Basic</p>
+            <h2 class="text-5xl font-semibold">100 GB</h2>
+            <p>$1.99/month</p>
+            <button
+              class="cursor-pointer border-purple-600 border px-8 py-3 rounded-md hover:bg-purple-600 transition"
+            >
+              Purchase
+            </button>
+          </div>
+          <!-- card bottom -->
+          <div class="border-t border-slate-500 p-8 bg-slate-800 rounded-b-md">
+            <ul class="flex flex-col gap-2">
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>100 GB storage</span>
+              </li>
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>Option to add member</span>
+              </li>
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>Extra member benefits</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="text-slate-300 rounded-lg bg-purple-600 p-3">
+          <!-- card top -->
+          <div
+            class="text-center flex flex-col items-center gap-5 p-8 rounded-t-md bg-slate-800"
+          >
+            <p class="text-xl">Standard</p>
+            <h2 class="text-5xl font-semibold">200 GB</h2>
+            <p>$2.99/month</p>
+            <button
+              class="cursor-pointer border-purple-600 border px-8 py-3 bg-purple-600 rounded-md hover:bg-purple-500 transition"
+            >
+              Purchase
+            </button>
+          </div>
+          <!-- card bottom -->
+          <div class="border-t border-slate-500 p-8 bg-slate-800 rounded-b-md">
+            <ul class="flex flex-col gap-2">
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>200 GB storage</span>
+              </li>
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>Option to add member</span>
+              </li>
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>Extra member benefits</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="text-slate-300 rounded-lg bg-slate-600 p-3">
+          <!-- card top -->
+          <div
+            class="text-center flex flex-col items-center gap-5 p-8 rounded-t-md bg-slate-800"
+          >
+            <p class="text-xl">Premium</p>
+            <h2 class="text-5xl font-semibold">300 GB</h2>
+            <p>$3.99/month</p>
+            <button
+              class="cursor-pointer border-purple-600 border px-8 py-3 rounded-md hover:bg-purple-600 transition"
+            >
+              Purchase
+            </button>
+          </div>
+          <!-- card bottom -->
+          <div class="border-t border-slate-500 p-8 bg-slate-800 rounded-b-md">
+            <ul class="flex flex-col gap-2">
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>300 GB storage</span>
+              </li>
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>Option to add member</span>
+              </li>
+              <li class="flex gap-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 12.75 6 6 9-13.5"
+                  />
+                </svg>
+                <span>Extra member benefits</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
