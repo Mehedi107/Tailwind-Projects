@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Project-3</title>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- global container -->
+    <div class="bg-cyan-50 min-h-screen flex justify-center items-center">
+      <!-- gallery container -->
+      <div class="bg-white p-10 rounded-xl shadow-xl">
+        <!-- menu container -->
+        <div class="flex justify-end items-center gap-5">
+          <div class="group font-semibold">
+            <a href="#">Vector</a>
+            <div
+              class="border-t-2 border-black opacity-0 group-hover:opacity-100 duration-500 mt-2 cursor-pointer"
+            ></div>
+          </div>
+          <div class="group font-semibold">
+            <a href="#">Illustrations</a>
+            <div
+              class="border-t-2 border-black opacity-0 group-hover:opacity-100 duration-500 mt-2 cursor-pointer"
+            ></div>
+          </div>
+          <div class="group font-semibold">
+            <a href="#">Images</a>
+            <div
+              class="border-t-2 border-black opacity-0 group-hover:opacity-100 duration-500 mt-2 cursor-pointer"
+            ></div>
+          </div>
+          <div class="group font-semibold">
+            <a href="#">Icons</a>
+            <div
+              class="border-t-2 border-black opacity-0 group-hover:opacity-100 duration-500 mt-2 cursor-pointer"
+            ></div>
+          </div>
+        </div>
+
+        <!-- search & upload container -->
+        <div class="flex justify-between items-center gap-5 mt-10">
+          <div>
+            <input
+              type="text"
+              class="placeholder:text-black/30 font-thin p-4 border-b-2 border-black/10 focus:outline-none"
+              placeholder="Search"
+            />
+          </div>
+          <div>
+            <button
+              class="font-semibold text-white bg-black hover:bg-black/80 duration-200 rounded-md py-3 px-10 cursor-pointer"
+            >
+              Upload
+            </button>
+          </div>
+        </div>
+
+        <!-- gallery grid -->
+        <div
+          class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center"
+        >
+          <!-- image 1 -->
+          <div class="group relative overflow-hidden w-72">
+            <img src="images/image1.jpg" alt="image1" class="w-full" />
+            <div
+              class="absolute bottom-0 left-0 right-0 w-full p-3 bg-black/40 opacity-0 group-hover:opacity-100 duration-500 text-white flex justify-between items-center"
+            >
+              <div>
+                <p class="text-sm mb-1">Abstract Painting</p>
+                <p class="text-xs">25 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="images/bookmark.svg" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+
+          <!-- image 2 -->
+          <div class="group relative overflow-hidden w-72">
+            <img src="images/image2.jpg" alt="image2" class="w-full" />
+            <div
+              class="absolute bottom-0 left-0 right-0 w-full p-3 bg-black/40 opacity-0 group-hover:opacity-100 duration-500 text-white flex justify-between items-center"
+            >
+              <div>
+                <p class="text-sm mb-1">Abstract Painting</p>
+                <p class="text-xs">25 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="images/bookmark.svg" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+
+          <!-- image 3 -->
+          <div class="group relative overflow-hidden w-72">
+            <img src="images/image3.jpg" alt="image3" class="w-full" />
+            <div
+              class="absolute bottom-0 left-0 right-0 w-full p-3 bg-black/40 opacity-0 group-hover:opacity-100 duration-500 text-white flex justify-between items-center"
+            >
+              <div>
+                <p class="text-sm mb-1">Abstract Painting</p>
+                <p class="text-xs">25 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="images/bookmark.svg" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+
+          <!-- image 4 -->
+          <div class="group relative overflow-hidden w-72">
+            <img src="images/image4.jpg" alt="image4" class="w-full" />
+            <div
+              class="absolute bottom-0 left-0 right-0 w-full p-3 bg-black/40 opacity-0 group-hover:opacity-100 duration-500 text-white flex justify-between items-center"
+            >
+              <div>
+                <p class="text-sm mb-1">Abstract Painting</p>
+                <p class="text-xs">25 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="images/bookmark.svg" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+
+          <!-- image 5 -->
+          <div class="group relative overflow-hidden w-72">
+            <img src="images/image5.jpg" alt="image5" class="w-full" />
+            <div
+              class="absolute bottom-0 left-0 right-0 w-full p-3 bg-black/40 opacity-0 group-hover:opacity-100 duration-500 text-white flex justify-between items-center"
+            >
+              <div>
+                <p class="text-sm mb-1">Abstract Painting</p>
+                <p class="text-xs">25 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="images/bookmark.svg" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+
+          <!-- image 6 -->
+          <div class="group relative overflow-hidden w-72">
+            <img src="images/image6.jpg" alt="image6" class="w-full" />
+            <div
+              class="absolute bottom-0 left-0 right-0 w-full p-3 bg-black/40 opacity-0 group-hover:opacity-100 duration-500 text-white flex justify-between items-center"
+            >
+              <div>
+                <p class="text-sm mb-1">Abstract Painting</p>
+                <p class="text-xs">25 likes - 35 shares</p>
+              </div>
+              <div>
+                <img src="images/bookmark.svg" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
