@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Login Modal | Project-5</title>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- global container -->
+    <div class="bg-cyan-50 min-h-screen flex justify-center items-center p-4">
+      <!-- modal container -->
+      <div class="flex bg-white rounded-xl shadow-2xl max-w-4xl w-full">
+        <!-- left container -->
+        <div class="p-14">
+          <h2 class="text-3xl font-bold text-gray-900 mb-5">Log In</h2>
+          <p class="text-gray-400">
+            log in to your accounts to upload or download your picture, videos
+            or music.
+          </p>
+          <!-- content middle -->
+          <div class="mt-10 flex flex-col gap-6">
+            <div class="mb-5">
+              <input
+                type="email"
+                placeholder="Enter you email"
+                class="p-4 focus:outline-none border-2 border-gray-300 placeholder:text-gray-400 w-full rounded-lg text-gray-500"
+              />
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-cyan-600">Forgot password?</p>
+              <button
+                class="flex justify-center items-center gap-1 py-3 px-7 rounded-md bg-cyan-600 hover:bg-cyan-600/80 hover:-translate-y-1 duration-200 cursor-pointer text-white"
+              >
+                <span>Next</span
+                ><span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <!-- divider -->
+          <div class="border-t-2 border-gray-200 mt-10 mb-5"></div>
+          <p class="text-gray-400 text-center">Or log in with</p>
+          <!-- content bottom -->
+          <div class="flex justify-center items-center gap-5 mt-10">
+            <button
+              class="flex justify-center items-center gap-2 border-2 border-gray-300 py-3 px-7 rounded-md cursor-pointer hover:shadow-lg hover:-translate-y-1 duration-200"
+            >
+              <img src="images/facebook.png" alt="" class="w-6 h-6" />
+              <span class="text-gray-800">Facebook</span>
+            </button>
+            <button
+              class="flex justify-center items-center gap-2 border-2 border-gray-300 py-3 px-7 rounded-md cursor-pointer hover:shadow-lg hover:-translate-y-1 duration-200"
+            >
+              <img src="images/google.png" alt="" class="w-6 h-6" />
+              <span class="text-gray-800">Google</span>
+            </button>
+          </div>
+        </div>
+        <!-- right container -->
+        <div class="w-96 hidden md:block">
+          <img
+            src="images/image.jpg"
+            alt="image"
+            class="w-full h-full object-cover rounded-r-xl"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
