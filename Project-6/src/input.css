@@ -3,7 +3,26 @@
 
 @theme {
   --font-bai: 'Bai Jamjuree', 'serif';
-  --color-primary: #121063;
-  --color-secondary: #3ab7bf;
-  --color-accent: #78dcca;
+  --color-primary: hsl(171, 66%, 44%);
+  --color-secondary: hsl(233, 100%, 69%);
+  --color-tertiary: hsl(210, 10%, 33%);
+  --color-accent: hsl(201, 11%, 66%);
+}
+
+button {
+  @apply lg:text-xl md:text-lg sm:text-base text-sm font-medium py-4 px-10  duration-300 cursor-pointer rounded-full shadow-xl hover:opacity-85;
+}
+
+#hero {
+  background: url('./images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hero {
+    background: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
