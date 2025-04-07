@@ -11,3 +11,19 @@
   --color-tertiary: hsl(210, 10%, 33%);
   --color-accent: hsl(201, 11%, 66%);
 }
+
+.item {
+  @apply relative md:w-1/4 w-full overflow-hidden;
+}
+
+.item-overlay {
+  @apply z-10 top-0 right-0 bottom-0 left-0  duration-150 absolute bg-linear-to-b from-transparent to-gray-900 w-full group-hover:to-white/50 group-hover:from-white/50;
+}
+
+.item-image {
+  @apply w-full group-hover:scale-110 duration-150;
+}
+
+h5 {
+  @apply text-3xl font-thin text-accent absolute bottom-0 left-0 right-0 p-10 group-hover:text-black z-20;
+}
