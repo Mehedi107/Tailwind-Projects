@@ -5,8 +5,23 @@
 @theme {
   --font-poppins: 'Poppins', 'sans-serif';
 
-  --color-primary: hsl(171, 66%, 44%);
-  --color-secondary: hsl(233, 100%, 69%);
-  --color-tertiary: hsl(210, 10%, 33%);
-  --color-accent: hsl(201, 11%, 66%);
+  --color-primary: hsl(180, 66%, 49%);
+  --color-primary-light: hsl(180, 66%, 69%);
+  --color-secondary: hsl(257, 27%, 26%);
+  --color-accent: hsl(0, 87%, 67%);
+  --color-grayishViolet: hsl(257, 7%, 63%);
+  --color-veryDarkBlue: hsl(255, 11%, 22%);
+  --color-veryDarkViolet: hsl(260, 8%, 14%);
+}
+
+.container {
+  @apply max-w-[1500px] mx-auto;
+}
+
+.left-links a {
+  @apply text-grayishViolet hover:text-black font-bold;
+}
+
+.btn-primary {
+  @apply text-white font-bold bg-primary hover:bg-primary/80;
 }
