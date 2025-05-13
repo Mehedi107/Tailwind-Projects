@@ -15,7 +15,7 @@
 }
 
 .container {
-  @apply max-w-[1500px] mx-auto;
+  @apply max-w-[1500px] mx-auto px-4;
 }
 
 .left-links a {
