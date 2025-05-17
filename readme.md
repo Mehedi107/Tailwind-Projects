@@ -9,3 +9,4 @@
 | 7   | [Loopstudio](https://github.com/Mehedi107/Tailwind-Projects/tree/main/Project-7)       | [Live Demo](https://loopstudio-by-mehedi.vercel.app/)       |
 | 8   | [Shortly](https://github.com/Mehedi107/Tailwind-Projects/tree/main/Project-8)          | [Live Demo](https://shortly-sandy.vercel.app/)              |
 | 9   | [Testimonial Grid](https://github.com/Mehedi107/Tailwind-Projects/tree/main/Project-9) | [Live Demo](https://testimonial-grid-lac-eight.vercel.app/) |
+| 10  | [Fylo](https://github.com/Mehedi107/Tailwind-Projects/tree/main/Project-10)            | [Live Demo](https://fylo-ashy.vercel.app/)                  |
