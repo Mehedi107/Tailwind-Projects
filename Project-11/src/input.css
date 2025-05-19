@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-softBlue: hsl(231, 69%, 60%);
+  --color-softRed: hsl(0, 94%, 66%);
+  --color-grayishBlue: hsl(229, 8%, 60%);
+  --color-veryDarkBlue: hsl(229, 31%, 21%);
+
+  --font-rubik: 'Rubik', ' sans-serif';
+}
